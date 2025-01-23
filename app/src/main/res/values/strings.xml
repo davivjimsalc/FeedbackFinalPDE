@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Feedback1Final</string>
+    <string-array name="color_options">
+        <item>Negro</item>
+        <item>Rojo</item>
+        <item>Azul</item>
+        <item>Verde</item>
+    </string-array>
+    <string-array name="color_values">
+        <item>black</item>
+        <item>red</item>
+        <item>blue</item>
+        <item>green</item>
+    </string-array>
+    <string name="color_datos_title">Color de los datos</string>
+    <string name="tamaño_texto_title">Tamaño del texto</string>
+    <string name="descripcion_scrollview">Lista de productos</string>
+    <string name="menu_preferencias_title">Preferencias</string>
+</resources>

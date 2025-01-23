@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <Button
+            android:id="@+id/btnEditarLista"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Editar lista"
+            android:background="@android:color/transparent"
+            android:textColor="@android:color/white"
+            android:onClick="irAEditarLista" />
+
+        <Button
+            android:id="@+id/btnMedirAceleracion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Medir Aceleración"
+            android:onClick="irAMedirAceleracion" />
+
+        <Button
+            android:id="@+id/btnAcercaDe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:onClick="mostrarAcercaDe"
+            android:text="Acerca de"
+            android:textColor="@android:color/white" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:id="@+id/scrollViewProductos"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar"
+        android:contentDescription="@string/descripcion_scrollview">
+
+        <LinearLayout
+            android:id="@+id/layoutProductos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

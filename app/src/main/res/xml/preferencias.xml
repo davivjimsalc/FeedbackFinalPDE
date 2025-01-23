@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference
+        android:key="color_datos"
+        android:title="@string/color_datos_title"
+        android:entries="@array/color_options"
+        android:entryValues="@array/color_values"
+        android:defaultValue="black" />
+    <SeekBarPreference
+        android:key="tamaño_texto"
+        android:title="@string/tamaño_texto_title"
+        android:defaultValue="18"
+        android:min="12"
+        android:max="30" />
+</PreferenceScreen>
