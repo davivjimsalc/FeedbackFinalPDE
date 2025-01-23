@@ -1,4 +1,4 @@
-He aádido las funcionalidades a Feedback1Final como se pidio. Explicare como usar y ver todas las funcionalidades:
+He añadido las funcionalidades a Feedback1Final como se pidio. Explicare como usar y ver todas las funcionalidades:
 1. Desde la actividad principal, en el action bar veremos que se ha implementado un nuevo boton para acceder a la actividad Medir Aceleracion
 
 ![image](https://github.com/user-attachments/assets/b73b47f8-3439-4838-b124-eab12307804a)
