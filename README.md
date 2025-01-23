@@ -1,4 +1,4 @@
-He añadido las funcionalidades a Feedback1Final como se pidio. Explicare como usar y ver todas las funcionalidades:
+He añadido las funcionalidades al Feedback1Final como se pidio. Explicare como usar y ver todas las funcionalidades:
 1. Desde la actividad principal, en el action bar veremos que se ha implementado un nuevo boton para acceder a la actividad Medir Aceleracion
 
 ![image](https://github.com/user-attachments/assets/b73b47f8-3439-4838-b124-eab12307804a)
@@ -11,11 +11,11 @@ He añadido las funcionalidades a Feedback1Final como se pidio. Explicare como u
 
 ![image](https://github.com/user-attachments/assets/a9aa030a-05aa-4d12-8319-12e6c5592f2d)
 
-4. vemos si se esta almacenando en la BBDD: View > Tool Windows > App Inspection
+4. Vemos si se esta almacenando en la BBDD: View > Tool Windows > App Inspection
 
 ![image](https://github.com/user-attachments/assets/ebbaece3-3b15-4972-a708-9d428ae98f4c)
 
-5. Vemoos que tenemos otro toolbar el cual nos llevara a la siguiente funcionalidad de modificacion de comportamiento de la aplicacion en el que podremos cambiar el color y tamaño dedl texto
+5. Vemos que tenemos otro toolbar el cual nos llevara a la siguiente funcionalidad de modificacion de comportamiento de la aplicacion en el que podremos cambiar el color y tamaño dedl texto
 
 ![image](https://github.com/user-attachments/assets/416ca31a-aa05-46b7-9e65-57d058e4d01b)
 
@@ -35,7 +35,7 @@ Le damos a aplicar:
 
 
 OTRAS FUNCIONALIDADES
-1. La aplicacion se comunicara mediante notificaciones de sistema cuando haya movimiento. Primero debemos activar las notificaciones de la aplicacion en: settings > apps > Feedback1Final > Notifications > Notificaciones ded movimiento = on
+1. La aplicacion se comunicara mediante notificaciones de sistema. Debemos activar las notificaciones de la aplicacion en: settings > apps > Feedback1Final > Notifications > Notificaciones ded movimiento = on
 
 ![image](https://github.com/user-attachments/assets/5532d3c8-393e-4605-b8dc-e91648f0b209)
 
@@ -46,4 +46,6 @@ OTRAS FUNCIONALIDADES
 3. Por ultimo podremos ver las estadisticas de la aceleracion:
 
 ![image](https://github.com/user-attachments/assets/3d886e05-a87f-47ed-a0fa-ed22d45c995d)
+
+*Me he dado cuenta al descargar el trabajo desde git que las imagenes de la actividad main pertenecientes al primer trabajo no se veian bien al principio. Si esto pasa deberias poder verlas bien al añadir un nuevo producto o al poner nuevas imagenes en drawable
 
